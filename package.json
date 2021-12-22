@@ -17,7 +17,8 @@
     "prepublishOnly": "npm run build",
     "build": "bili",
     "example": "poi --serve",
-    "build:example": "poi --prod"
+    "build:example": "poi --prod",
+    "postinstall": "npm run build"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
